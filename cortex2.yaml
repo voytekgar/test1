@@ -1,0 +1,20 @@
+openapi: 3.0.0
+info:
+  title: Test A 1
+  description: Test A description
+  version: 1.0.0
+  x-cortex-git:
+    github:
+      repository: voytekgar/test1
+  x-cortex-tag: test-a
+  x-cortex-link:
+  - url: https://github.com/voytekgar/test1
+    name: Github Repository
+    type: documentation
+  x-cortex-owners:
+  - type: SLACK
+    channel: engineering
+  - name: cortexapps/engineering
+    type: GROUP
+  x-cortex-dependency:
+  - tag: brain-app
