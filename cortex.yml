@@ -20,15 +20,5 @@ info:
     email: zenon.garncarz@cortex.io
   - type: email
     email: zenon2.garncarz@cortex.io
-  - type: email
-    email: zenon3.garncarz@cortex.io
-  - type: email
-    email: zenon4.garncarz@cortex.io
-  - type: email
-    email: zenon5.garncarz@cortex.io
-  - type: email
-    email: zenon6.garncarz@cortex.io
-  - type: email
-    email: zenon7.garncarz@cortex.io
   x-cortex-dependency:
   - tag: brain-app
