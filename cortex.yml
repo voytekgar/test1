@@ -14,7 +14,7 @@ info:
   x-cortex-owners:
   - type: SLACK
     channel: engineering
-  - name: cortexapps/engineering
-    type: GROUP
+  - type: email
+    email: wojciech.garncarz@cortex.io
   x-cortex-dependency:
   - tag: brain-app
