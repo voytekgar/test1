@@ -16,5 +16,7 @@ info:
     channel: engineering
   - type: email
     email: wojciech.garncarz@cortex.io
+  - type: email
+    email: zenon.garncarz@cortex.io
   x-cortex-dependency:
   - tag: brain-app
