@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: Test A 3
+  titleX: Test A 3
   description: Test A description
   version: 1.0.0
   x-cortex-git:
@@ -17,8 +17,6 @@ info:
   - type: email
     email: wojciech.garncarz@cortex.io
   - type: email
-    email: zenon.garncarz@cortex.io
-  - type: email
-    email: zenon2.garncarz@cortex.io
+    email: nowy1.garncarz@cortex.io
   x-cortex-dependency:
   - tag: brain-app
