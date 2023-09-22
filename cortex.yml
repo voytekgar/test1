@@ -1,12 +1,12 @@
 openapi: 3.0.0
 info:
-  title: Test A 11
+  title: Test B 1
   description: Test A description2
   version: 1.0.0
   x-cortex-git:
     github:
       repository: voytekgar/test1
-  x-cortex-tag: test-a
+  x-cortex-tag: test-b
   x-cortex-link:
   - url: https://github.com/voytekgar/test1
     name: Github Repository
