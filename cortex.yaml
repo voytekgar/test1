@@ -5,5 +5,5 @@ info:
   version: 1.0.0
   x-cortex-git:
     github:
-      repository: voytekgar/test1
+      repository: svoytekgar/test1
   x-cortex-tag: voytekgar-test1
