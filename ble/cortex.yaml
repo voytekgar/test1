@@ -1,0 +1,9 @@
+openapi: 3.0.0
+info:
+  title: test nested 1
+  description: test nested description
+  version: 1.0.0
+  x-cortex-git:
+    github:
+      repository: voytekgar/test1
+  x-cortex-tag: test-nested
