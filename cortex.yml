@@ -17,6 +17,6 @@ info:
   - type: email
     email: wojciech.garncarz@cortex.io
   - type: email
-    email: nowy3.garncarz@cortex.io
+    email: nowy4.garncarz@cortex.io
   x-cortex-dependency:
   - tag: brain-app
