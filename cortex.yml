@@ -8,7 +8,7 @@ info:
       repository: voytekgar/test1
   x-cortex-tag: test-b
   x-cortex-link:
-  - url: Xhttps://github.com/voytekgar/test1
+  - url: https://github.com/voytekgar/test1
     name: Github Repository
     type: documentation
   x-cortex-owners:
@@ -19,4 +19,4 @@ info:
   - type: email
     email: nowy4.garncarz@cortex.io
   x-cortex-dependency:
-  - tag: brain-app
+  - tag: brain-appXXX
