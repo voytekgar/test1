@@ -1,7 +1,7 @@
 openapi: 3.0.0
-info:
-  title: test1113 AAA1
-  description: description test12
+XXinfo:
+  XXtitle: test1113 BBB1
+  XXdescription: description test12
   version: 1.0.0
   x-cortex-git:
     github:
