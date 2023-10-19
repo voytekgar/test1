@@ -12,7 +12,7 @@ info:
     name: Github Repository
     type: documentation
   x-cortex-owners:
-  - type: SLACKxxx
+  - type: SLACKxxxy
     channel: engineering
   - type: email
     email: wojciech.garncarz@cortex.io
