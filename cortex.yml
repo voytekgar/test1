@@ -19,4 +19,4 @@ info:
   - type: email
     email: nowy4.garncarz@cortex.io
   x-cortex-dependency:
-  - tag: brain-appXXX
+  - tag: voytekgar-test1
