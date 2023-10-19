@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: Test AAA1
+  title: Test BBB1
   description: Test A description2
   version: 1.0.0
   x-cortex-git:
