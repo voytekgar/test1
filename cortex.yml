@@ -11,8 +11,8 @@ info:
   - url: https://github.com/voytekgar/test1
     name: Github Repository
     type: documentation
-  x-cortex-owners:
-  - type: SLACKxxxy
+  x-cortex-owners: sss
+  - type: SLACK
     channel: engineering
   - type: email
     email: wojciech.garncarz@cortex.io
