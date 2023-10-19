@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: Test EEE
+  titleX: Test EEE
   description: Test A description2
   version: 1.0.0
   x-cortex-git:
@@ -11,7 +11,7 @@ info:
   - url: https://github.com/voytekgar/test1
     name: Github Repository
     type: documentation
-  x-cortex-owners: sss
+  x-cortex-owners:
   - type: SLACK
     channel: engineering
   - type: email
