@@ -1,0 +1,79 @@
+{
+  "name": "root",
+  "private": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "engines": {
+    "npm": "please-use-yarn",
+    "yarn": ">=1.22.18"
+  },
+  "workspaces": [
+    "apps/@cortexapps/*",
+    "packages/**/*"
+  ],
+  "scripts": {
+    "clean": "turbo run clean",
+    "start": "yarn workspace @cortexapps/brain-app start",
+    "start:prod": "yarn workspace @cortexapps/brain-app start:prod",
+    "start:demo": "yarn workspace @cortexapps/brain-app start:demo",
+    "start:localdemo": "yarn workspace @cortexapps/brain-app start:localdemo",
+    "start:onprem": "yarn workspace @cortexapps/brain-app start:onprem",
+    "build": "turbo run build",
+    "build:prod": "turbo run build --filter=!@cortexapps/brain-app && yarn workspace @cortexapps/brain-app build:prod",
+    "build:staging": "turbo run build --filter=!@cortexapps/brain-app && yarn workspace @cortexapps/brain-app build:staging",
+    "build:demo": "turbo run build --filter=!@cortexapps/brain-app && yarn workspace @cortexapps/brain-app build:demo",
+    "build:onprem": "turbo run build --filter=!@cortexapps/brain-app && yarn workspace @cortexapps/brain-app build:onprem",
+    "build:ephemeral": "turbo run build --filter=!@cortexapps/brain-app && yarn workspace @cortexapps/brain-app build:ephemeral",
+    "build:stats": "turbo run build --filter=!@cortexapps/brain-app && yarn workspace @cortexapps/brain-app build:stats",
+    "build:sourcemaps": "yarn workspace @cortexapps/brain-app build:sourcemaps",
+    "eject": "yarn workspace @cortexapps/brain-app eject",
+    "prepare": "husky install",
+    "toggleLive": "yarn workspace @cortexapps/brain-app toggleLive",
+    "toggleDemo": "yarn workspace @cortexapps/brain-app toggleDemo",
+    "test": "turbo run test",
+    "test:update": "yarn workspace @cortexapps/brain-app test:update",
+    "format": "turbo run format",
+    "formatfix": "turbo run formatfix",
+    "formatcheck": "turbo run formatcheck",
+    "lint": "turbo run lint",
+    "lintcheck": "turbo run lintcheck",
+    "lintfix": "turbo run lintfix",
+    "storybook": "yarn workspace @cortexapps/brain-app storybook",
+    "typescript-check": "turbo run typescript-check",
+    "tsc": "turbo run tsc"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/runtime": "^7.10.4",
+    "@types/node": "^16.18.12",
+    "@types/react": "^18.0.27",
+    "env-cmd": "^10.1.0",
+    "husky": "^8.0.3",
+    "import-sort-style-cortex": "^0.0.1",
+    "prettier": "2.4.1",
+    "prettier-plugin-import-sort": "^0.0.7",
+    "pretty-quick": "^2.0.0",
+    "react-app-rewire-yarn-workspaces": "^1.0.3",
+    "react-app-rewired": "^2.2.1",
+    "react-app-rewired-esbuild": "^0.0.11",
+    "react-scripts": "5.0.1",
+    "ts-file-exports": "^0.0.4",
+    "turbo": "^1.6.1",
+    "typescript": "4.9.4"
+  }
+}
