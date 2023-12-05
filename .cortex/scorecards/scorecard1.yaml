@@ -1,0 +1,37 @@
+name: Taylor V2 Gitops
+tag: taylor-v2-gitops
+description: >-
+  V2 Testing
+draft: false
+ladder:
+  levels:
+    - name: Bronze
+      rank: 1
+      description: Pretty good
+      color: "#c38b5f"
+rules:
+  - title: Description is present!
+    expression: >+
+      entity.description() = null
+    description: do ya have a description?
+    weight: 25
+    failureMessage: you failed sry
+    level: Bronze
+  - title: Ownership is present!
+    expression: >+
+      ownership != null
+    description: do ya have a ownership?
+    weight: 25
+    failureMessage: you failed sry
+    level: Bronze
+  - title: Ownership V1
+    expression: >+
+      ownership.count > 0
+    description: do ya have a ownership v1?
+    weight: 25
+    failureMessage: you failed sry
+    level: Bronze
+filter:
+  category: SERVICE
+evaluation:
+  window: 4
